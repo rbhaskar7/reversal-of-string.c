@@ -14,3 +14,231 @@ int main()
  
    return 0;
 }
+
+
+//code of HTML5 amd CSS
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<style>
+  #title{
+    margin-top:30px;
+    font-size:45px;
+    text-align:center;
+	background:#009900
+    
+  }
+  #dropdown{
+    
+    border-radius:12%;
+    width:180px;
+    height:35px;
+     border:1px solid blue;
+				  padding: 5px 5px 12px 5px;
+  }  
+  #description{
+    text-align:center;
+    margin-top:-30px;
+    font-family:verdana;
+	background:#ff6600
+  }
+  
+  #survey-form{
+    width:550px;
+   
+	margin:0 auto;
+	
+
+	text-align:center;
+	background:#ff3399;
+   
+    
+  }
+  #name{
+    
+    border-radius:12%;
+    width:180px;
+    height:35px;
+     border:1px solid blue;
+				  padding: 5px 5px 12px 5px;
+    
+    
+  }
+  div2{
+    
+      position:relative;
+    top:30px;
+    background:rgb(106, 90, 205);
+    height:800px;
+    width:550px;
+    margin:0 auto;
+    text-align:center;
+    background-color:red;
+  }
+  #check1{
+    
+    
+  }
+  div1{
+    position:relative;
+    bottom:15px;
+	
+	
+    
+    
+  }
+    
+  #email{
+    
+    border-radius:12%;
+    width:180px;
+    height:35px;
+     border:1px solid blue;
+				  padding: 5px 5px 12px 5px;
+  }   
+  #name-label{
+    font-size:22px;
+	position:relative;
+	width:200px;
+	float:left;
+	
+    
+  }
+  #submit{
+    font-size:22px;
+	
+	width:330px;
+	margin-left:194px;
+    
+  }
+  #email-label{
+    font-size:22px;
+	position:ralative;
+	float:left;
+	width:200px;
+  }
+    
+  #number{
+    
+    border-radius:12%;
+    width:180px;
+    height:35px;
+     border:1px solid blue;
+				  padding: 5px 5px 12px 5px;
+  }
+  div5{
+    margin:0 auto;
+  }
+  #number-label{
+    font-size:22px;
+	position:relative;
+	float:left;
+	width:200px;
+  }
+  #label-qualification{
+    font-size:22px;
+    position:relative;
+	float:left;
+	width:200px;
+  }
+  #interest-label{
+    font-size:22px;
+    float:left;
+	width:200px;
+	position:relative;
+  }
+  div3{
+    margin:0 auto;
+    
+  }
+  #check{
+    
+  }
+ 
+  body{
+    background:linear-gradient( to right,#0000cc, #00ccff),url(png.jpg);
+    background-size:cover;
+    height:1200px;
+  }
+  #favourite{
+    font-size:22px;
+	width:200px;
+	position:relative;
+	float:left;
+    
+  }
+  div4{
+    
+   
+    
+	
+	
+  }
+  #comments{
+    font-size:22px;
+	float:left;
+	position:relative;
+	width:200px;
+  }
+ 
+  
+  
+  #me{
+  width:330px;
+			margin-left:194px;
+			}
+  
+</style>
+<body>
+  <div1>
+    <h1 id="title"><u>Survey Form</u></h1>
+  <p id="description">Help us to make this platform even better</p>
+  
+  </div1>
+  <div2>
+    
+    <form id="survey-form">
+      <fieldset>
+        <legend>Enter your Details</legend>
+        <b> <label id="name-label">Name</label></b> <input type="text" id="name" required placeholder="Please fill your name"><br><br>
+        <b> <label id="email-label">Email</label></b><input type="email" id="email" required placeholder="xyz@gmail.com"><br><br>
+        <b><label id="number-label">Number</label><input type="number" id="number" placeholder="******4143" max="10" min="10"><br><br>
+          <label id="label-qualification">Qualification</label><select id="dropdown">
+          <option>BTECH</option>
+          <option>MTECH</option>
+          <option>MBA</option>
+          <option>MCA</option>
+          <option>BCA</option>
+          <option>BSC</option>
+          </select><br><br>
+          
+         
+          
+           
+          <label id="interest-label">Interest</label>
+            
+          <input type="radio" name="radior" value="r1" id="check1">CRICKET
+          <input type="radio" name="radior" value="r2" id="check">FOOTBALL
+          <input type="radio" name="radior" value="r3" id="check">READING
+		  <input type="radio" name="radior" value="r4" id="check">BLOGGING
+		   <br><br>
+          <label id="favourite">Favourite</label>
+		   
+          <input type="checkbox" value="favourite1">C/C++
+          <input type="checkbox" value="favourite2">JAVA<br>
+          <input type="checkbox" value="favourite3">PYTHON
+          <input type="checkbox" value="favourite4">C#
+          <br><br>
+		  
+          <label id="comments">Comments</label>
+		  
+          <input type="textarea"><br><br>
+          <textarea id="me"></textarea><br><br>
+          <button id="submit">Submit</button>
+          
+          </fieldset>
+    </form>
+        
+             </div2>
+</body>
